@@ -19,6 +19,7 @@ setup_ubuntu () {
 #   # setup git
 #   envsubst < ~/.dotfiles/default-gitignore.txt > /home/$USERNAME/TMP.gitconfig
 #   mv /home/$USERNAME/TMP.gitconfig /home/$USERNAME/.gitconfig
+# git config credential.helper store
 
 #   # zsh and prezto
 #   zsh_prezto_setup()
